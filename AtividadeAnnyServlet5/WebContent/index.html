@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="ISO-8859-1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<title>Servidor IFRN</title>
+
+		<style>
+			.superdiv{
+				margin-top: 50px;
+				width: 900px;
+			}
+			.divbut{
+				margin-top: 25px;
+			}
+			.btn{
+				width: 600px;
+				margin-left: 200px;
+			}
+		</style>
+</head>
+<body>
+
+<div class="container superdiv" >
+
+	<form method="post" action="AnnyServlet5" >
+	
+		<div class="form-group row">
+		    <label class="col-sm-2 col-form-label"> Nome </label>
+		    <div class="col-sm-10">
+		     <input type="" class="form-control" id="nome" name="nome" value="" >
+		    </div>  
+		 </div>
+	
+		<div class="form-group row">
+		    <label for="staticEmail" class="col-sm-2 col-form-label"> E-mail</label>
+		    <div class="col-sm-10">
+		     <input type="" class="form-control" id="email" name="email" value="" >
+		    </div>  
+		 </div>
+		 
+	    <div class="form-group row">
+		    <label for="inputPassword" class="col-sm-2 col-form-label">Senha</label>
+		    <div class="col-sm-10">
+		      <input type="password"  required="required" class="form-control" id="senha" name="senha" value="" >
+		    </div>
+	    </div>
+	    
+	    <div class="form-group row">
+		    <label class="col-sm-2 col-form-label"> Matrícula </label>
+		    <div class="col-sm-10">
+		     <input type="" class="form-control" id="matricula" name="matricula" value="" >
+		    </div>  
+		 </div>
+		 
+		 <div class="form-group row">
+		    <label class="col-sm-2 col-form-label"> Idade </label>
+		    <div class="col-sm-10">
+		     <input type="" class="form-control" id="idade" name="idade" value="" >
+		    </div>  
+		 </div>
+	    
+	  <div class="container-fluid divbut">
+	   	 <button class="btn btn-primary">Cadastrar</button>
+	  </div>
+	</form>
+
+</div>
+
+</body>
+</html>
